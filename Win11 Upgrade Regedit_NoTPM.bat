@@ -1,0 +1,3 @@
+@echo off
+REG ADD "HKLM\SYSTEM\Setup\MoSetup" /v AllowUpgradesWithUnsupportedTPMOrCPU /t REG_DWORD /d 1 /f
+pause
